@@ -1,13 +1,22 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Mukta:wght@300&family=Poppins:wght@300&family=Public+Sans:wght@200&display=swap');
+
+*{
+    font-family: 'Public Sans', sans-serif;
+
+}
+.navbar {
+    background-color: rgb(14, 14, 121);
+}
+.menu {
+   margin-top: 50px;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.aktif-kategori{
+    font-weight: bold;
+    color: navy ;
+
+}
+.aktif-kategori:hover{
+    background-color: navy;
+    color: white;
 }
